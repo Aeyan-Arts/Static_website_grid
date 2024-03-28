@@ -154,7 +154,7 @@ img {
     padding: 20px;
 }
 
-@media (max-width:1112px) and (min-width:477px) {
+@media (max-width:1112px) and (min-width:601px) {
     .contant-contaner {
         padding: 20px;
         display: grid;
@@ -163,11 +163,11 @@ img {
     }
 }
 
-@media (max-width:476px) {
-    .gridstuff {
+@media (max-width:600px) {
+    .contant-contaner {
+        padding: 20px;
+        display: grid;
+        gap: 20px;
         grid-template-columns: 1fr;
     }
 }
-
-/* maxmium?? 476 X 851*/
-/*don't forget to edit font sizes and contant

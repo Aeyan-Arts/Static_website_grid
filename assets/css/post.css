@@ -3,11 +3,11 @@
 }
 
 .side-padding>p {
-    width: 1000px;
+    width: fit-content;
 }
 
 .side-padding {
-    padding-left: 70px;
+    padding-left: 60px;
 }
 
 .circle {
@@ -31,16 +31,8 @@
     display: inline;
 }
 
-.flexBox {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 10px;
-}
-
-.flexBox>img {
-    max-width: 100%;
-    height: auto;
+.width-reduction {
+    width: fit-content;
 }
 
 article {
@@ -48,4 +40,22 @@ article {
     border: 2px solid rgb(104, 151, 118);
     background-color: rgba(240, 227, 202, 0.897);
     padding: 20px;
+}
+
+@media (max-width:680px) {
+    .post .gridstuff {
+        grid-template-columns: 1fr;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-left: 0px;
+
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .side-padding {
+        padding-left: 10px;
+    }
 }
