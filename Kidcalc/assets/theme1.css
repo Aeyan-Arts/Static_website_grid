@@ -9,6 +9,12 @@
     background-image: url(images/leaves-5635707_1280.jpg);
 }
 
+.bird .hello {
+    background-color: rgba(217, 44, 44, 0.369);
+    border-bottom: 4px solid rgba(169, 49, 49, 0.859);
+    border-radius: 15px;
+}
+
 .bird h1,
 .bird h2 {
     font-family: "nabla";

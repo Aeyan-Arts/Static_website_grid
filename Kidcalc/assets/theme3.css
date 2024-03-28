@@ -10,6 +10,12 @@
     background-size: cover;
 }
 
+.cat .hello {
+    background-color: rgba(240, 192, 243, 0.369);
+    border-bottom: 4px solid rgba(241, 175, 241, 0.859);
+    border-radius: 15px;
+}
+
 .cat h1,
 .cat h2 {
     font-family: "pixel";

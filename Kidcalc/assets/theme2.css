@@ -10,6 +10,12 @@
     background-size: cover;
 }
 
+.dog .hello {
+    background-color: rgba(129, 230, 245, 0.369);
+    border-bottom: 4px solid rgba(54, 162, 212, 0.859);
+    border-radius: 15px;
+}
+
 .dog h1,
 .dog h2 {
     font-family: "zoink";
