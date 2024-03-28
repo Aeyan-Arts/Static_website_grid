@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Kidcalc</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/syle.css">
+</head>
+
+<body class="bird">
+    <div id="contant-contaner">
+        <aside>
+            <p> <label>Name:</label>
+                <input class="style" type="text" name="Name" required><b>*</b>
+            </p>
+            <p>
+                <label>Age:</label>
+                <input class="style" type="text" name="Age">
+            </p>
+            <p>
+                <label>Theme:</label>
+                <select id="themes" onchange="themeChange()">
+                    <option class="B" value="bird">red bird!</option>
+                    <option class="D" value="dog">orange dog!</option>
+                    <option class="C" value="cat">purple cat!</option>
+                </select>
+            </p>
+        </aside>
+        <div class="main">
+            <div class="hello">
+                <h1>Hello Name!</h1>
+                <p>amount of correct answars = 5
+                    <br>
+                    keep up the good work!
+                </p>
+            </div>
+            <div class="centring">
+                <h2>KidsCalc!</h2>
+
+                <div class="flex_center">
+                    <!--make this working-->
+                    <div class="calculater">
+                        <input class="show" type="text">
+                        <button name="num" value="1" class="row1">1</button>
+                        <button name="num" value="2" class="row1">2</button>
+                        <button name="num" value="3" class="row1">3</button>
+                        <button name="num" value="+" class="row1">+</button>
+                        <button name="num" value="4" class="row2">4</button>
+                        <button name="num" value="5" class="row2">5</button>
+                        <button name="num" value="6" class="row2">6</button>
+                        <button name="num" value="-" class="row2">-</button>
+                        <button name="num" value="7" class="row3">7</button>
+                        <button name="num" value="8" class="row3">8</button>
+                        <button name="num" value="9" class="row3">9</button>
+                        <input name="num" type="reset" class="clear">
+                        <button name="num" value="less than" class="row4"> &lt;</button>
+                        <button name="num" value="0" class="row4">0</button>
+                        <button name="num" value="more than" class="row4">&gt;</button>
+                    </div>
+                    <p class="a">
+                        <label>Answar here:</label>
+                        <input class="style" type="text">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function themeChange() {
+            const x = document.getElementById("themes").value;
+            document.body.className = x
+        }
+    </script>
+</body>
+
+</html>

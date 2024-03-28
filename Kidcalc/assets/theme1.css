@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "nabla";
+    src: url(images/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf);
+}
+
+.bird {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(images/forest-fantasy-digital-art-uhdpaper.com.1043.jpg);
+}
+
+.bird h1,
+.bird h2 {
+    font-family: "nabla";
+}
+
+.bird h1 {
+    font-size: 70px;
+    margin-bottom: 0%;
+}
+
+.bird h2 {
+    font-size: 45px;
+    margin-bottom: 0%;
+}
+
+.bird #contant-contaner {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+}
+
+.bird aside {
+    height: 250px;
+    background-color: rgba(97, 233, 188, 0.671);
+    border: 2px solid rgb(186, 67, 67);
+    padding: 20px;
+}
+
+/*dosen't work for some reason*/
+.bird .main {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(97, 233, 188, 0.671);
+    border: 2px solid rgb(186, 67, 67);
+    padding-bottom: 30px;
+}
+
+.bird .flex_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(188, 217, 243, 0.726);
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.bird .centring {
+    padding-left: 33.3%;
+    padding-right: 33.3%;
+}
+
+.bird .calculater {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: fit-content;
+}
+
+.bird .show {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.bird button {
+    width: 70px;
+    height: 50px;
+    margin: 0.5px;
+}
+
+.bird button,
+.bird input,
+.bird .main,
+.bird.flex_center,
+.bird aside {
+    border-radius: 20px;
+}
+
+.bird .style {
+    height: 20px;
+    border: 2px solid rgba(186, 67, 67, 0.845);
+}
+
+.bird .row1 {
+    background-color: rgb(238, 137, 133);
+}
+
+.bird select {
+    border: 2px solid rgba(186, 67, 67, 0.845);
+}
+
+.bird .row2 {
+    background-color: rgb(238, 189, 133);
+}
+
+.bird .row3 {
+    background-color: rgb(217, 231, 86);
+}
+
+.bird .row4 {
+    background-color: rgb(235, 241, 175);
+}
+
+.bird .clear {
+    background-color: rgb(201, 94, 94);
+}
+
+.bird .clear {
+    grid-area: 4/-1/-1/-1;
+
+}
