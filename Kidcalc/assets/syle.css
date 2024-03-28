@@ -7,10 +7,15 @@
     src: url(images/Indie_Flower/IndieFlower-Regular.ttf);
 }
 
+.style input {
+    height: 40px;
+}
+
 p,
 button,
 label,
-select {
+select,
+input {
     font-family: "inde_flower";
     font-size: 20px;
 }

@@ -41,7 +41,7 @@
 .bird .main {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: rgba(229, 169, 74, 0.671);
+    background-color: rgba(229, 176, 91, 0.671);
     border: 2px solid rgb(186, 67, 67);
     padding-bottom: 30px;
 }
@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(209, 74, 141, 0.726);
+    background-color: rgba(227, 220, 120, 0.726);
     width: fit-content;
     padding: 20px;
     margin: 20px;
@@ -114,10 +114,7 @@
 }
 
 .bird .clear {
-    background-color: rgb(155, 35, 35);
-}
-
-.bird .clear {
     grid-area: 4/-1/-1/-1;
-
+    background-color: rgb(155, 35, 35);
+    color: antiquewhite;
 }
