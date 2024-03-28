@@ -6,12 +6,20 @@
 .cat {
     padding-left: 100px;
     padding-right: 100px;
-    background-image: url(images/forest-fantasy-digital-art-uhdpaper.com.1043.jpg);
+    background-image: url(images/night-city-scenery.jpg);
+    background-size: cover;
 }
 
 .cat h1,
 .cat h2 {
     font-family: "pixel";
+    color: #d9acf6;
+}
+
+.cat label,
+.cat p,
+.cat button {
+    color: #d9acf6;
 }
 
 .cat h1 {
@@ -32,8 +40,8 @@
 
 .cat aside {
     height: 250px;
-    background-color: rgba(97, 233, 188, 0.671);
-    border: 2px solid rgb(186, 67, 67);
+    background-color: rgba(64, 8, 56, 0.671);
+    border: 2px solid rgb(232, 182, 214);
     padding: 20px;
 }
 
@@ -41,8 +49,8 @@
 .cat .main {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: rgba(97, 233, 188, 0.671);
-    border: 2px solid rgb(186, 67, 67);
+    background-color: rgba(64, 8, 56, 0.671);
+    border: 2px solid rgb(232, 182, 214);
     padding-bottom: 30px;
 }
 
@@ -50,7 +58,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(188, 217, 243, 0.726);
+    background-color: rgba(39, 9, 129, 0.726);
     width: fit-content;
     padding: 20px;
     margin: 20px;
@@ -90,31 +98,31 @@
 
 .cat .style {
     height: 20px;
-    border: 2px solid rgba(186, 67, 67, 0.845);
+    border: 2px solid rgba(228, 157, 215, 0.845);
 }
 
 .cat .row1 {
-    background-color: rgb(238, 137, 133);
+    background-color: rgb(17, 10, 76);
 }
 
 .cat select {
-    border: 2px solid rgba(186, 67, 67, 0.845);
+    border: 2px solid rgba(7, 15, 73, 0.845);
 }
 
 .cat .row2 {
-    background-color: rgb(238, 189, 133);
+    background-color: rgb(78, 12, 75);
 }
 
 .cat .row3 {
-    background-color: rgb(217, 231, 86);
+    background-color: rgb(96, 21, 61);
 }
 
 .cat .row4 {
-    background-color: rgb(235, 241, 175);
+    background-color: rgb(95, 6, 6);
 }
 
 .cat .clear {
-    background-color: rgb(201, 94, 94);
+    background-color: rgb(183, 144, 207);
 }
 
 .cat .clear {
